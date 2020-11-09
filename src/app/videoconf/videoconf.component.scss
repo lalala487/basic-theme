@@ -1,0 +1,36 @@
+.pane
+{
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+    background-color:rgb(233,255,239);
+    color: rgb(53, 66, 54);
+    display: table;
+    padding: 10px;
+
+}
+
+.pic{
+    width:35%;
+    height:100%;
+    background-color: rgb(202, 227, 205);
+    display: table-cell;
+    border-radius: 20px;
+    margin:5px;
+    border-width: 4px;
+    border-color: rgb(189, 211, 192);
+}
+.details{
+    width:40%;
+    display: table-cell;
+    padding-left:10px;
+}
+.details .description{
+    font-size: 12px;
+    margin: 0px;
+}
+.details .title{
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 600;
+}

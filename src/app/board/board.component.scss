@@ -1,0 +1,29 @@
+.my-class{
+    width: 100px!important;
+    min-width: unset!important;
+    height:100px;
+    color: black;
+}
+.call-board{
+    text-align: center;
+}
+
+div button {
+    margin: 20px;
+}
+
+//---------------- cursor ---------------------------
+  
+  #happy {
+      cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+  }
+  
+  #sad {
+      cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+
+  }
+  
+  #meh {
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/meh.png"), auto;
+  
+  }

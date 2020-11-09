@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif; 
+}
+header,
+footer {
+  padding: 100px 0;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  overflow: scroll;
+}
+section {
+  background-color: lightblue;
+  min-height: 200px;
+  margin-bottom: 30px;
+  visibility: hidden;
+  transition: background-color 0.3s linear;
+  &.is-active {
+    background-color: lightpink;
+  }
+}
+.scrollTriggerLogo {
+  background-color: #202020;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

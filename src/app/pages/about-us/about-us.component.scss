@@ -1,0 +1,46 @@
+.wrapper{
+    margin: 10% 0 0 10%;
+    border-left: 6px solid black;
+    overflow: hidden;
+  }
+
+  #quote{
+    font-size:44px;
+    line-height:50px;
+    color:#dedede;
+  }
+ .bigline{
+    position:absolute;
+    
+    color: green;
+    margin: 0 0 0 14px;
+    padding: 0;
+    line-height: 0.8;
+    letter-spacing: -5px;
+    background: #e0e0e0;
+    float: left;
+  }
+  p{
+    font-size: 4vw;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+  }
+  .greensock{
+    height:10vw;
+  }
+  .sock{
+    margin-left: 14px;
+    background: none;
+  }
+  .sockOne{
+    color: red;
+  }
+  #developer
+  {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-stretch: expanded;
+    color: indigo;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,74 @@
+// define 3 theme color
+// mat-palette accepts $palette-name, main, lighter and darker variants
+$my-theme-primary: mat-palette($mat-indigo, 700, 300, 500);
+$my-theme-accent: mat-palette($mat-indigo, 100, 100, 100);
+$my-theme-warn: mat-palette($mat-deep-orange, 800, 800, 800);
+
+// create theme (use mat-dark-theme for themes with dark backgrounds)
+$my-theme: mat-light-theme(
+    $my-theme-primary,
+    $my-theme-accent,
+    $my-theme-warn
+);
+
+button.mat-button {
+    border-radius: 0 !important;
+ }
+
+ $custom-typography: mat-typography-config(
+  $font-family:  'Roboto, Helvetica Neue, sans-serif',
+  $headline: mat-typography-level(32px, 48px, 700),
+  $body-1: mat-typography-level(16px, 24px, 500)
+);
+
+@include mat-base-typography($custom-typography);
+
+// Override typography for a specific Angular Material components.
+@include mat-checkbox-typography($custom-typography);
+
+// Override typography for all Angular Material, including mat-base-typography and all components.
+@include angular-material-typography($custom-typography);
+
+@include mat-core($custom-typography);
+
+
+//--------------
+.mat-raised-button, .mat-flat-button , .mat-stroked-button{
+    border-radius: 4px !important;
+    line-height : 25px !important;
+}
+.mat-dialog-container {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    background: #ffffff !important;
+    color: #474747 !important; 
+    border-radius: 4px;
+    padding: 10px !important; 
+  
+}
+
+
+//-----------------------------------------
+.app-title {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.padding-left10
+{
+    padding-left: 10px;
+}
+.middle
+{
+    margin:auto;
+    text-align: center;
+}
+
+.section 
+{
+     border-radius: 10px;
+     border-width: 1px;
+     margin: 10px;
+     border-color: grey;
+     background-color: rgb(222, 89, 248);
+     padding:10px;
+}
